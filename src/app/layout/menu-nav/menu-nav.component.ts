@@ -17,7 +17,7 @@ import { doctorData } from './data';
 })
 export class MenuNavComponent implements OnInit {
 
-    constructor(private modalService: NgbModal,private _data:DataService) { }
+    constructor(private modalService: NgbModal, private _data: DataService) { }
 
     myCases=false;
     officeDashboard = false;
